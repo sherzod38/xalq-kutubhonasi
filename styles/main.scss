@@ -199,6 +199,8 @@ h1, h2, h3, h4, h5, h6, p, a {
             }
 
             &__links {
+                
+                width: 400px;
 
                 @media screen and (max-width: 576px) {
                     margin-bottom: 50px;                    
@@ -246,7 +248,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 
             &__links2 {
 
-                margin-left: 600px;
+                // margin-left: 600px;
+                width: 400px;
 
                 @media screen and (max-width: 576px) {
                     margin-left: 0;

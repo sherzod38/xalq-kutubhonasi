@@ -1143,6 +1143,10 @@ body {
           align-items: center;
 }
 
+.header__inner .nav .nav__left a {
+  margin-right: 20px;
+}
+
 .header__inner .nav .nav__left .nav__left-logo {
   margin-right: 80px;
   color: #000000;

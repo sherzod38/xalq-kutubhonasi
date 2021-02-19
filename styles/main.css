@@ -186,6 +186,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   }
 }
 
+.section1 .header__right__links {
+  width: 400px;
+}
+
 @media screen and (max-width: 576px) {
   .section1 .header__right__links {
     margin-bottom: 50px;
@@ -234,7 +238,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .section1 .header__right__links2 {
-  margin-left: 600px;
+  width: 400px;
 }
 
 @media screen and (max-width: 576px) {

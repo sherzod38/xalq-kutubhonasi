@@ -997,6 +997,7 @@ body {
     a {
         text-decoration: none;
         color: #f5f1f1;
+
     }
 
     .nav {
@@ -1008,6 +1009,10 @@ body {
         .nav__left {
             display: flex;
             align-items: center;
+
+            a {
+                margin-right: 20px;
+            }
 
             .nav__left-logo {
                 margin-right: 80px;
