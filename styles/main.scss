@@ -200,7 +200,9 @@ h1, h2, h3, h4, h5, h6, p, a {
 
             &__links {
                 
-                width: 400px;
+                // width: 500px;
+                display: flex;
+                justify-content: space-around;
 
                 @media screen and (max-width: 576px) {
                     margin-bottom: 50px;                    
@@ -265,6 +267,7 @@ h1, h2, h3, h4, h5, h6, p, a {
                     border: 2px solid #FFFFFF;
                     box-sizing: border-box;
                     border-radius: 24px;
+                    margin-left: 20px;
                     @media screen and (max-width: 576px) {
                         font-size: 12px;
                         line-height: 18px;
