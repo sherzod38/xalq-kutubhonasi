@@ -727,7 +727,7 @@ body {
                 font-size: 32px;
                 line-height: 32px;
                 text-align: center;
-                color: #5eff00;
+                color: rgb(255, 255, 255);
                 max-width: 327px;
                 margin-bottom: 24px;
             }
@@ -978,6 +978,7 @@ body {
     background-repeat: no-repeat;
     // background-position: right bottom;
     background-size: cover;
+    height: 100vh;
     padding-top: 33px;
 
     // padding-bottom: 250px;
