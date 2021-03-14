@@ -140,21 +140,16 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .section1 .header__left__logo {
-  width: 160px;
+  width: 85px;
   height: 50px;
-  color: blanchedalmond;
-  font-size: 20px;
-  font-weight: bolder;
 }
 
 .section1 .header__left__logo .logo {
-  width: 160px;
+  width: 85px;
   height: 50px;
-  color: blanchedalmond;
-  font-size: 20px;
-  font-weight: bolder;
   -o-object-fit: contain;
      object-fit: contain;
+  border-radius: 4px;
 }
 
 .section1 .header__left__logo:hover {
@@ -654,24 +649,35 @@ h1, h2, h3, h4, h5, h6, p, a {
   display: flex;
 }
 
+@media only screen and (max-width: 576px) {
+  .footer__inner__left__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .footer__inner__left__left__logo {
-  width: 160px;
+  width: 85px;
   height: 50px;
-  color: blanchedalmond;
-  font-size: 20px;
-  font-weight: bolder;
   display: block;
   margin-bottom: 25px;
 }
 
 .footer__inner__left__left__logo .logo {
-  width: 160px;
+  width: 85px;
   height: 50px;
-  color: blanchedalmond;
-  font-size: 20px;
-  font-weight: bolder;
   -o-object-fit: contain;
      object-fit: contain;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 .footer__inner__left__left__logo:hover {
@@ -704,7 +710,6 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-size: 18px;
   line-height: 28px;
   color: #FFFFFF;
-  margin-left: 40px;
 }
 
 .footer__inner__left__left__link2:hover {
@@ -727,6 +732,17 @@ h1, h2, h3, h4, h5, h6, p, a {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.6;
+  width: 160px;
+}
+
+.footer__inner__left__right__text a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 1;
   width: 160px;
 }
 

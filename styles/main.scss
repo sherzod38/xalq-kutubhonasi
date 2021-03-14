@@ -112,11 +112,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 @mixin logo {
-    width: 160px;
+    width: 85px;
     height: 50px;
-    color: blanchedalmond;
-    font-size: 20px;
-    font-weight: bolder;
 }
 
 @mixin iconca {
@@ -172,6 +169,7 @@ h1, h2, h3, h4, h5, h6, p, a {
                 .logo {
                     @include logo;
                     object-fit: contain;
+                    border-radius: 4px;
                 }
 
                 &:hover {
@@ -401,6 +399,7 @@ h1, h2, h3, h4, h5, h6, p, a {
                     mix-blend-mode: normal;
                     opacity: 0.8;
                     width: 445px;
+                    
                 }
 
                 &::before {
@@ -601,6 +600,12 @@ h1, h2, h3, h4, h5, h6, p, a {
             display: flex;
 
             &__left {
+                @media only screen and (max-width: 576px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
                 &__logo {
                     @include logo();
                     display: block;
@@ -608,6 +613,8 @@ h1, h2, h3, h4, h5, h6, p, a {
                     .logo {
                         @include logo();
                         object-fit: contain;
+                        border: 1px solid #000;
+                        border-radius: 5px;
                     }
 
                     &:hover {
@@ -641,7 +648,7 @@ h1, h2, h3, h4, h5, h6, p, a {
                     font-size: 18px;
                     line-height: 28px;
                     color: #FFFFFF;
-                    margin-left: 40px;
+                    // margin-left: 40px;
 
                     &:hover {
                         color: #F67E7E;
@@ -664,6 +671,16 @@ h1, h2, h3, h4, h5, h6, p, a {
                     mix-blend-mode: normal;
                     opacity: 0.6;
                     width: 160px;
+                    a {
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #FFFFFF;
+                        mix-blend-mode: normal;
+                        opacity: 1;
+                        width: 160px; 
+                    }
                 }
             }
         }

@@ -161,6 +161,12 @@ body {
   width: 159px;
 }
 
+.nav__left-logo-img {
+  width: 85px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
 .header {
   background: #87eaf5;
   background-repeat: no-repeat;
@@ -901,13 +907,12 @@ body {
     margin-right: 24px;
   }
   .footer-tablet__left .left-inner .social-img {
-    fill: #fff;
     margin-right: 16px;
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
   }
   .footer-tablet__left .left-inner .social-img:hover {
-    fill: #F67E7E;
+    fill: #fa6767;
   }
   .footer-tablet__address {
     font-style: normal;
@@ -1039,6 +1044,18 @@ body {
   color: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.6;
+  margin: 0;
+}
+
+.footer__address a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 1;
+  margin: 0;
 }
 
 @media screen and (max-width: 576px) {
