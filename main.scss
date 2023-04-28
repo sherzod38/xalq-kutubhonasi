@@ -214,7 +214,7 @@ body {
 
             .nav__left {
                 display: flex;
-                align-items: center;
+                flex-direction: column-reverse;
 
                 .nav__left-logo {
                     margin-right: 80px;
